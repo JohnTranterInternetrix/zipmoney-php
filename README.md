@@ -5,12 +5,14 @@
 
 Add this line to your application's composer.json:
 
+```php
 under repositories
         "zipmoney/zipmoney-php": {
           "type": "git",
           "url": "https://github.com/JohnTranterInternetrix/zipmoney-php.git"
         },
-        
+```
+
 ```php
 under require
 
