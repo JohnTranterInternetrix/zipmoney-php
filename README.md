@@ -5,7 +5,15 @@
 
 Add this line to your application's composer.json:
 
+under repositories
+        "zipmoney/zipmoney-php": {
+          "type": "git",
+          "url": "https://github.com/JohnTranterInternetrix/zipmoney-php.git"
+        },
+        
 ```php
+under require
+
 "zipmoney/zipmoney-php":"^1.0" 
 ```
 
@@ -13,9 +21,6 @@ And then execute:
 
     $ composer update
 
-Or install it yourself as:
-    
-    $ composer require zipmoney/zipmoney-php
     
 ## Usage
 ### Configuration
